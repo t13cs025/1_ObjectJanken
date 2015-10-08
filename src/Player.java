@@ -72,7 +72,7 @@ public class Player
 		if (true == result)
 		{
 			// 勝った場合は勝ち数を加算する
-			winCount_ += 1;
+			******;
 		}
 	}
 
@@ -83,7 +83,7 @@ public class Player
 	 */
 	public int getWinCount()
 	{
-		return winCount_;
+		return ******;
 	}
 
 	/**
@@ -93,6 +93,6 @@ public class Player
 	 */
 	public String getName()
 	{
-		return name_;
+		return ******;
 	}
 }

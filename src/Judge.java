@@ -75,10 +75,10 @@ public class Judge
         Player winner = null;
 
         // プレイヤー１の手を出す
-        int player1hand = player1.showHand();
+        int player1hand = ******;
 
         // プレイヤー２の手を出す
-        int player2hand = player2.showHand();
+        int player2hand = ******;
 
         // それぞれの手を表示する
         printHand(player1hand);
@@ -87,9 +87,9 @@ public class Judge
         System.out.print("\n");
 
         // プレイヤー１が勝つ場合
-        if ((player1hand == Player.STONE && player2hand == Player.SCISSORS)
-            || (player1hand == Player.SCISSORS && player2hand == Player.PAPER)
-            || (player1hand == Player.PAPER && player2hand == Player.STONE))
+        if ((player1hand == ****** && player2hand == ******)
+            || (player1hand == ****** && player2hand == ******)
+            || (player1hand == ****** && player2hand == ******))
         {
             winner = player1;
         }
@@ -128,12 +128,12 @@ public class Judge
         if (player1WinCount > player2WinCount)
         {
             // プレイヤー1の勝ち
-            winner = player1;
+            ******;
         }
         else if (player1WinCount < player2WinCount)
         {
             // プレイヤー2の勝ち
-            winner = player2;
+            ******;
         }
 
         // どちらでもない場合は引き分け(nullを返す)
